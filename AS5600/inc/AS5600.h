@@ -88,6 +88,9 @@
 #define AS5600_DIR_CCW					2
 /* AS5600 bit mask */
 #define AS5600_12_BIT_MASK				(uint16_t)4095
+/* AS5600 angle conversions */
+#define AS5600_DEG_CONV 8.7890625e-2    /* 360/4096 */
+#define AS5600_RAD_CONV 1.5339808e-3    /* 2pi/4096 */
 
 /// AS5600 struct
 typedef struct {	// variables are placed from largest to smallest to keep the struct as small as possible
