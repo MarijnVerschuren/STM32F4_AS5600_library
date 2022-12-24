@@ -1,5 +1,5 @@
 # STM32F4_AS5600_library
- STM32F4 library for AS5600
+ AS5600 library for STM32F4
 
 How to use:
 1. make a new instance
